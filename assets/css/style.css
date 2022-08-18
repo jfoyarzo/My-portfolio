@@ -37,7 +37,11 @@ h1 {
 }
 
 .geometric {
-  margin-top: 8%;
+  min-height: 15em;
+  background-image: url('/assets/img/image_geometry_2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 7% 0
 }
 
 .button {
