@@ -9,14 +9,14 @@ h1 {
 }
 
 .nav-bar {
+  background-image: url('/assets/img/image_geometry_1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 5em;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding-right: 2%;
-}
-
-.nav-bar > img {
-  width: 6em;
 }
 
 .nav-bar > a > img {
