@@ -1,5 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
+  color: #1A2236;
 }
 
 .nav-bar {
@@ -18,5 +19,6 @@ body {
 }
 
 h1 {
-    font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', serif;
+  font-size: 4em;
 }
