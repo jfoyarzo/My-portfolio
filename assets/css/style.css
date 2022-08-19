@@ -37,7 +37,8 @@ h1 {
 }
 
 .geometric {
-  min-height: 15em;
+  min-height: 12em;
+  width: 100%;
   background-image: url('/assets/img/image_geometry_2.png');
   background-repeat: no-repeat;
   background-size: contain;
