@@ -114,3 +114,34 @@ h1 {
   border: white 1px solid;
   width: 60%;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(6,auto);
+  gap: 0;
+}
+
+.card1 {
+  grid-row: 1 / 2;
+}
+
+.card2 {
+  grid-row: 2 / 3;
+}
+
+.card3 {
+  grid-row: 3 / 4;
+}
+
+.card4 {
+  grid-row: 4 / 5;
+}
+
+.card5 {
+  grid-row: 5 / 6;
+}
+
+.card6 {
+  grid-row: 6 / 7;
+}
