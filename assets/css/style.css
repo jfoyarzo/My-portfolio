@@ -37,8 +37,8 @@ h1 {
 }
 
 .geometric {
-  min-height: 12em;
-  width: 100%;
+  display: flex;
+  min-height: 12em;  
   background-image: url('/assets/img/image_geometry_2.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -67,4 +67,27 @@ h1 {
 
 #btnHeadline {
   margin: 0 5%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column; 
+  max-width: 100vw; 
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  background-color: #1a2236;
+  color: white;
+  padding: 1em;
+}
+
+.card-btn {
+  background-color: #1a2236;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  padding: 0.5em;
+  border: white 1px solid;
 }
