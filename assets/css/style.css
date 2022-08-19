@@ -80,7 +80,29 @@ h1 {
   flex-direction: column;
   background-color: #1a2236;
   color: white;
-  padding: 1em;
+  padding: 1.5em;
+}
+
+.card-body > h4 {
+  margin: 0%;
+  font-weight: 300;
+  font-size: 1.4em;
+}
+
+.card-list {
+  list-style: none;
+  display: flex;
+  margin: 2% 0 5% 0;
+  font-size: small;
+  padding: 0;
+}
+
+.card-list-item {
+  margin-right: 1em;
+  background-color: #98dede;
+  color: #1a2236;
+  font-weight: 300;
+  padding: 0.25em 0.5em;
 }
 
 .card-btn {
@@ -90,4 +112,5 @@ h1 {
   font-size: 1em;
   padding: 0.5em;
   border: white 1px solid;
+  width: 60%;
 }
