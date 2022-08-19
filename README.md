@@ -1,6 +1,6 @@
 # My Portfolio
 
-A simple portfolio website. Currently in the first stage, consists of a navbar and a headline section.
+A simple portfolio website. Currently in the second stage, consists of a navbar, a headline section, a projects section and an about section.
 
 
 ## Built With
