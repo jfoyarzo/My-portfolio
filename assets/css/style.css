@@ -6,6 +6,7 @@ body {
 h1 {
   font-family: 'Playfair Display', serif;
   font-size: 4em;
+  margin: 0.5em 0;
 }
 
 .nav-bar {
@@ -144,4 +145,20 @@ h1 {
 
 .card6 {
   grid-row: 6 / 7;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.dl-icon {
+  margin: 0 5%;
+}
+
+.about > button {
+  margin: 2em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
