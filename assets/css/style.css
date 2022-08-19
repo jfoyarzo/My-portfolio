@@ -39,7 +39,7 @@ h1 {
 
 .geometric {
   display: flex;
-  min-height: 12em;  
+  min-height: 12em;
   background-image: url('/assets/img/image_geometry_2.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -72,8 +72,8 @@ h1 {
 
 .card {
   display: flex;
-  flex-direction: column; 
-  max-width: 100vw; 
+  flex-direction: column;
+  max-width: 100vw;
 }
 
 .card-body {
@@ -116,10 +116,22 @@ h1 {
   width: 60%;
 }
 
+.card-btn:hover {
+  color: #1a2236;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.card-btn:active {
+  color: #1a2236;
+  background-color: white;
+  border: 2px solid black;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: repeat(6,auto);
+  grid-template-rows: repeat(6, auto);
   gap: 0;
 }
 
