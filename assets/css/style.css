@@ -162,3 +162,42 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+
+.main-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.main-item {
+  padding: 15% 15% 25% 15%;
+  color: white;
+  margin-bottom: 1em;
+}
+
+.languages {
+  background-color: #1c528a;
+  background-image: url('/assets/img/hash.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 30%;
+}
+
+.frameworks {
+  background-color: #e2505c;
+  background-image: url('/assets/img/diamond.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 30%;
+}
+
+.skills {
+  background-color: #febf52;
+  background-image: url('/assets/img/lightbulb.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 30%;
+}
+
+.sub-list {
+  list-style-type: disc;
+}
