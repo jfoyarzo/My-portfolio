@@ -84,8 +84,8 @@ h1 {
   padding: 1.5em;
 }
 
-.card-body > h4 {
-  margin: 0%;
+.project-title {
+  margin: 0% 0% 2% 0%;
   font-weight: 300;
   font-size: 1.4em;
 }
