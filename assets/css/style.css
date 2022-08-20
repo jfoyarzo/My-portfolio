@@ -27,6 +27,10 @@ h1 {
 .headline {
   display: flex;
   flex-direction: column;
+  background-image: url('/assets/img/image_geometry_2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
 }
 
 .text-wrapper {
@@ -35,15 +39,6 @@ h1 {
   justify-content: center;
   padding: 0 5%;
   margin-bottom: 5%;
-}
-
-.geometric {
-  display: flex;
-  min-height: 12em;
-  background-image: url('/assets/img/image_geometry_2.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin: 7% 0;
 }
 
 .button {
@@ -67,7 +62,7 @@ h1 {
 }
 
 #btnHeadline {
-  margin: 0 5%;
+  margin: 0 5% 60% 5%;
 }
 
 .card {
@@ -168,11 +163,17 @@ h1 {
   margin: 0 5%;
 }
 
-.about > button {
-  margin: 2em 0;
+.about-wrapper > button {
+  margin: 3em 0;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0% 5%;
 }
 
 .main-list {
