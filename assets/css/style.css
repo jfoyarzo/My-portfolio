@@ -213,3 +213,35 @@ h1 {
 .sub-list {
   list-style-type: disc;
 }
+
+.card-image {
+  min-height: 25.3vh;
+  height: auto;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+
+.image1 {
+  background-image: url('/assets/img/projects-img1.png');
+}
+
+.image2 {
+  background-image: url('/assets/img/projects-img2.png');
+}
+
+.image3 {
+  background-image: url('/assets/img/projects-img3.png');
+}
+
+.image4 {
+  background-image: url('/assets/img/projects-img4.png');
+}
+
+.image5 {
+  background-image: url('/assets/img/projects-img5.png');
+}
+
+.image6 {
+  background-image: url('/assets/img/projects-img6.png');
+}
