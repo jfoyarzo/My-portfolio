@@ -246,3 +246,26 @@ h1 {
 .image6 {
   background-image: url('/assets/img/projects-img6.png');
 }
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  background-image: url('/assets/img/image_geometry_1.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 15vh;
+  background-color: #f9f9fa;
+  height: 631px;
+  padding-top: 80px;
+}
+
+.contact-wrapper > h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4em;
+  margin: 0.5em 0 0.2em 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
