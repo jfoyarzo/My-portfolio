@@ -269,3 +269,24 @@ h1 {
   display: flex;
   flex-direction: column;
 }
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #DFDFE0;
+  margin: 0 10px;
+}
+
+fieldset > label {
+  font-size: 12px;
+  margin-bottom: 8px;
+  color: #7d7c84;
+}
+
+input {
+  background: white;
+  border: none;
+  font-size: 16px;
+}
