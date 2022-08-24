@@ -313,17 +313,29 @@ fieldset > textarea:focus {
 }
 
 .contact-form > button {
-  margin: 15px 10px 50px 10px;
+  margin: 15px 10px 6em 10px;
 }
 
 .footer {
   background-color: #1a2236;
+  padding: 30px;
 }
 
-.footer-text-wrapper {
-  display: flex;
+.footer-text-wrapper > a {
+  color: #92dcdc;
+  text-decoration: none;
 }
 
 #get-resume {
   margin-left: 6px;
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon-wrapper > a > img {
+  height: 2em;
+  margin: 2em 0 1em 0;
 }
