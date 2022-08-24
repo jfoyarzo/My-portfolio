@@ -255,7 +255,6 @@ h1 {
   background-position: top left;
   background-size: 15vh;
   background-color: #f9f9fa;
-  height: 631px;
   padding-top: 80px;
 }
 
@@ -315,4 +314,16 @@ fieldset > textarea:focus {
 
 .contact-form > button {
   margin: 15px 10px 50px 10px;
+}
+
+.footer {
+  background-color: #1a2236;
+}
+
+.footer-text-wrapper {
+  display: flex;
+}
+
+#get-resume {
+  margin-left: 6px;
 }
