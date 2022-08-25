@@ -3,7 +3,8 @@ body {
   color: #1a2236;
 }
 
-h1 {
+h1,
+h2 {
   font-family: 'Playfair Display', serif;
   font-size: 4em;
   margin: 0.5em 0;
