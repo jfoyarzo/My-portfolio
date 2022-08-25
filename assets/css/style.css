@@ -246,3 +246,96 @@ h1 {
 .image6 {
   background-image: url('/assets/img/projects-img6.png');
 }
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  background-image: url('/assets/img/image_geometry_1.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 15vh;
+  background-color: #f9f9fa;
+  padding-top: 80px;
+}
+
+.contact-wrapper > h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4em;
+  margin: 0.5em 0 0.2em 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #dfdfe0;
+  margin: 0 10px 10px;
+}
+
+fieldset:focus-within {
+  border: 1px solid black;
+}
+
+fieldset > label {
+  font-size: 12px;
+  margin-bottom: 8px;
+  color: #7d7c84;
+}
+
+input {
+  background: white;
+  border: none;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+input:focus {
+  outline: none;
+}
+
+fieldset > textarea {
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  height: 140px;
+  color: #7d7c84;
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+fieldset > textarea:focus {
+  outline: none;
+}
+
+.contact-form > button {
+  margin: 15px 10px 6em 10px;
+}
+
+.footer {
+  background-color: #1a2236;
+  padding: 30px;
+}
+
+.footer-text-wrapper > a {
+  color: #92dcdc;
+  text-decoration: none;
+}
+
+#get-resume {
+  margin-left: 6px;
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon-wrapper > a > img {
+  height: 2em;
+  margin: 2em 0 1em 0;
+}
