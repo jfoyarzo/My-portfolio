@@ -444,7 +444,7 @@ fieldset > textarea:focus {
     background-image: url('/assets/img/grid-bg2.png');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 0 230px;
+    background-position: 0 190px;
   }
 
   .layout3 {
@@ -453,7 +453,7 @@ fieldset > textarea:focus {
     background-image: url('/assets/img/grid-bg3.png');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 0 630px;
+    background-position: 0 590px;
   }
 
   .layout4 {
@@ -462,7 +462,7 @@ fieldset > textarea:focus {
     background-image: url('/assets/img/grid-bg4.png');
     background-repeat: no-repeat;
     background-size: 16vh;
-    background-position: right 630px;
+    background-position: right 590px;
   }
 
   .card1 {
@@ -517,5 +517,14 @@ fieldset > textarea:focus {
 
   .card6 {
     display: none;
+  }
+
+  .card-btn {
+    width: 12em;
+  }
+
+  .card-list {
+    margin-bottom: 2em;
+    margin-top: 0;
   }
 }
