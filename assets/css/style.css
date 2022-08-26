@@ -406,6 +406,12 @@ fieldset > textarea:focus {
   .button {
     width: 15em;
     padding: 1.3em;
+    transition: all .2s ease-in;
+  }
+
+  .button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
   }
 
   .headline {
