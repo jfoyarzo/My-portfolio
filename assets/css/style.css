@@ -408,6 +408,10 @@ fieldset > textarea:focus {
     margin: 0;
   }
 
+  h2 {
+    font-size: 8em;
+  }
+
   .projects {
     background-image: url('/assets/img/image_dots.png');
     background-repeat: no-repeat;
@@ -526,5 +530,36 @@ fieldset > textarea:focus {
   .card-list {
     margin-bottom: 2em;
     margin-top: 0;
+  }
+
+  .about {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 15%;
+  }
+
+  .about-wrapper {
+    order: 2;
+    width: 50%;
+    align-items: flex-start;
+  }
+
+  .main-list {
+    padding-left: 10%;
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    background-image: url('/assets/img/image_dots_with_teal.png');
+    background-repeat: no-repeat;
+    background-position: 630px bottom;
+    background-size: 30vh;
+  }
+
+  .main-item {
+    width: 40%;
+    height: auto;
+    padding: 3em 0 8em 4em;
+    margin: 0;
   }
 }
