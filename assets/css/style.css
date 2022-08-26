@@ -569,6 +569,7 @@ fieldset > textarea:focus {
   #contact {
     background-image: url('/assets/img/contact-bg1.png');
     background-size: 20vh;
+    align-items: center;
   }
 
   #contact-section {
@@ -576,5 +577,28 @@ fieldset > textarea:focus {
     background-repeat: no-repeat;
     background-size: 30vh;
     background-position: 83vw 79vh;
+  }
+
+  .contact-wrapper {
+    align-items: center;
+  }
+
+  .contact-form {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50vw;
+    justify-content: center;
+  }
+
+  fieldset {
+    width: 32.5%;
+  }
+
+  #textarea {
+    width: 70%;
+  }
+
+  .contact-form > button {
+    margin-bottom: 11em;
   }
 }
