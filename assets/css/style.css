@@ -601,4 +601,16 @@ fieldset > textarea:focus {
   .contact-form > button {
     margin-bottom: 11em;
   }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 8%;
+  }
+
+  .icon-wrapper {
+    justify-content: space-evenly;
+    width: 20vw;
+  }
 }
