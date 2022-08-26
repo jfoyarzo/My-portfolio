@@ -71,6 +71,10 @@ h2 {
   margin-top: 5%;
 }
 
+.grid-layout {
+  display: none;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -402,5 +406,69 @@ fieldset > textarea:focus {
   h1 {
     font-size: 8em;
     margin: 0;
+  }
+
+  .projects > h2 {
+    font-size: 7em;
+    transform: rotate(-90deg) translate(400px, -750px);
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, auto);
+  }
+
+  .card1 {
+    grid-column: 5/-1;
+  }
+
+  .image1 {
+    height: 500px;
+    background-size: cover;
+  }
+
+  .card2 {
+    grid-column: 1/5;
+    margin-top: 5em;
+  }
+
+  .image2 {
+    height: 300px;
+    background-size: cover;
+  }
+
+  .card3 {
+    grid-row: 2;
+    grid-column: 9/-1;
+    margin-top: 4em;
+  }
+
+  .image3 {
+    background-size: cover;
+    height: 400px;
+  }
+
+  .card4 {
+    grid-column: 1/7;
+    transform: translateY(-85px);
+  }
+
+  .image4 {
+    height: 50vh;
+    background-size: cover;
+  }
+
+  .card5 {
+    grid-column: 7/-1;
+    transform: translateY(-85px);
+  }
+
+  .image5 {
+    height: 50vh;
+    background-size: cover;
+  }
+
+  .card6 {
+    display: none;
   }
 }
