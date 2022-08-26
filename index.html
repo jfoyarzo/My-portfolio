@@ -1,63 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Felipe Oyarzo" />
-    <title>My Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
 
-  <body>
-    <header>
-      <nav class="nav-bar">
-        <a href="#"
-          ><img src="./assets/img/ic_menu.png" alt="Hamburguer menu icon"
-        /></a>
-      </nav>
-    </header>
-    <main>
-      <section class="headline">
-        <div class="text-wrapper">
-          <h1>Felipe<br />Oyarzo</h1>
-          <p>
-            Hello! I am a software developer! I can help you build a product,
-            feature or website. Take a look of my works. If you like what you
-            see and have a project you need coded, don't hesitate and contact
-            me.
-          </p>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Felipe Oyarzo" />
+  <title>My Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300;400;500;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="nav-bar">
+      <div id="menu-wrapper">
+        <a href="#">Hello</a>
+        <a href="#">Portfolio</a>
+        <a href="#">about</a>
+        <a href="#">Contact</a>
+      </div>
+      <a href="#"><img src="./assets/img/ic_menu.png" alt="Hamburguer menu icon" id="hamburguer" /></a>
+    </nav>
+  </header>
+  <main>
+    <section class="headline">
+      <div class="text-wrapper">
+        <h1>Felipe<br />Oyarzo</h1>
+        <p>
+          Hello! I am a software developer! I can help you build a product,
+          feature or website. Take a look of my works. If you like what you
+          see and have a project you need coded, don't hesitate and contact
+          me.
+        </p>
         <button class="button" type="button" id="btnHeadline">
           Start collaboration
         </button>
-      </section>
-      <section class="projects">
-        <h2>Projects</h2>
-        <div class="grid-container">
-          <div class="card card1">
-            <div class="card-image image1"></div>
-            <div class="card-body">
-              <p class="project-title">Project name goes here</p>
-              <ul class="card-list">
-                <li class="card-list-item">HTML/CSS</li>
-                <li class="card-list-item">Ruby on Rails</li>
-                <li class="card-list-item">JavaScript</li>
-              </ul>
-              <button type="button" class="card-btn">
-                See this project &rarr;
-              </button>
-            </div>
+      </div>
+    </section>
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="grid-container">
+        <div class="card card1">
+          <div class="card-image image1"></div>
+          <div class="card-body">
+            <p class="project-title">Project name goes here</p>
+            <ul class="card-list">
+              <li class="card-list-item">HTML/CSS</li>
+              <li class="card-list-item">Ruby on Rails</li>
+              <li class="card-list-item">JavaScript</li>
+            </ul>
+            <button type="button" class="card-btn">
+              See this project &rarr;
+            </button>
           </div>
-          <div class="card card2">
-            <div class="card-image image2"></div>
-            <div class="card-body">
+        </div>
+        <div class="card card2">
+          <div class="card-image image2"></div>
+          <div class="card-body">
             <p class="project-title">Project name goes here</p>
             <ul class="card-list">
               <li class="card-list-item">HTML/CSS</li>
@@ -138,12 +142,7 @@
         </p>
         <button type="button" class="button">
           Get my CV
-          <img
-          src="./assets/img/ic_download.png"
-          width="32"
-          alt="Download icon"
-          class="dl-icon"
-          />
+          <img src="./assets/img/ic_download.png" width="32" alt="Download icon" class="dl-icon" />
         </button>
       </div>
       <ul class="main-list">
@@ -189,50 +188,33 @@
       <form action="https://formspree.io/f/xbjblgky" class="contact-form" method="POST">
         <fieldset>
           <label for="name">Your name</label>
-          <input
-          type="text"
-          id="name"
-          name="name"
-          placeholder="Enter your name"
-          maxlength="30"
-          required
-          />
+          <input type="text" id="name" name="name" placeholder="Enter your name" maxlength="30" required />
         </fieldset>
         <fieldset>
           <label for="email">Your email</label>
-          <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Enter you email"
-          required
-          />
+          <input type="email" id="email" name="email" placeholder="Enter you email" required />
         </fieldset>
         <fieldset>
-          <textarea
-          name="message"
-          id="message"
-          placeholder="Enter your message"
-          maxlength="500"
-          required
-          ></textarea>
+          <textarea name="message" id="message" placeholder="Enter your message" maxlength="500" required></textarea>
         </fieldset>
         <button type="submit" class="button">Start collaboration</button>
       </form>
     </section>
   </main>
-    <footer class="footer">
-      <div class="footer-text-wrapper">
-      <a href="#">Get my Resume <img src="./assets/img/get-resume.png" alt="Click to download resume" height="20" id="get-resume"></a>
+  <footer class="footer">
+    <div class="footer-text-wrapper">
+      <a href="#">Get my Resume <img src="./assets/img/get-resume.png" alt="Click to download resume" height="20"
+          id="get-resume"></a>
     </div>
     <div class="icon-wrapper">
       <a href="#"><img src="./assets/img/ic_stackoverflow.png" alt="stack overflow"></a>
-      <a href="#"><img  src="./assets/img/ic_github.png" alt="github"></a>
+      <a href="#"><img src="./assets/img/ic_github.png" alt="github"></a>
       <a href="#"><img src="./assets/img/ic_twitter.png" alt="twitter"></a>
       <a href="#"><img src="./assets/img/ic_linkedin.png" alt="linkedin"></a>
       <a href="#"><img src="./assets/img/ic_medium.png" alt="medium"></a>
       <a href="#"><img src="./assets/img/ic_angellist.png" alt="angel list"></a>
     </div>
-    </footer>
-  </body>
+  </footer>
+</body>
+
 </html>

@@ -25,6 +25,10 @@ h2 {
   width: 1em;
 }
 
+#menu-wrapper {
+  display: none;
+}
+
 .headline {
   display: flex;
   flex-direction: column;
@@ -32,6 +36,7 @@ h2 {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
+  height: 85vh;
 }
 
 .text-wrapper {
@@ -63,7 +68,7 @@ h2 {
 }
 
 #btnHeadline {
-  margin: 0 5% 60% 5%;
+  margin-top: 5%;
 }
 
 .card {
@@ -339,4 +344,63 @@ fieldset > textarea:focus {
 .icon-wrapper > a > img {
   height: 2em;
   margin: 2em 0 1em 0;
+}
+
+@media (min-width: 768px) {
+  .nav-bar {
+    background-image: none;
+    justify-content: center;
+  }
+
+  #hamburguer {
+    display: none;
+  }
+
+  #menu-wrapper {
+    display: flex;
+  }
+
+  #menu-wrapper > a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: #1a2236;
+  }
+
+  #menu-wrapper > a:hover {
+    text-decoration: underline #1a2236 2px;
+  }
+
+  .text-wrapper {
+    max-width: 55%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url('/assets/img/image_dots.png');
+    background-repeat: no-repeat;
+    background-size: 20vh;
+    background-position: bottom right;
+  }
+
+  .text-wrapper > p {
+    margin-right: 35%;
+  }
+
+  .button {
+    width: 15em;
+    padding: 1.3em;
+  }
+
+  .headline {
+    height: 100vh;
+    justify-content: center;
+    padding: 0 10%;
+    background-image: url('/assets/img/image_geometry_3.png');
+    background-size: 45% 100vh;
+    background-position: right;
+  }
+
+  h1 {
+    font-size: 8em;
+    margin: 0;
+  }
 }
