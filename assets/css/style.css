@@ -427,6 +427,11 @@ fieldset > textarea:focus {
     transform: rotate(-90deg) translate(400px, -750px);
   }
 
+  .project-title {
+    font-size: 2em;
+    font-weight: 700;
+  }
+
   .grid-container {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(4, auto);
@@ -558,20 +563,35 @@ fieldset > textarea:focus {
 
   .main-list {
     padding-left: 10%;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     width: 50%;
-    flex-wrap: wrap;
     background-image: url('/assets/img/image_dots_with_teal.png');
     background-repeat: no-repeat;
-    background-position: 630px bottom;
+    background-position: right bottom;
     background-size: 30vh;
   }
 
   .main-item {
-    width: 40%;
+    width: auto;
     height: auto;
     padding: 3em 0 8em 4em;
     margin: 0;
+  }
+
+  .languages {
+    grid-column: 1/span1;
+    grid-row: 1;
+  }
+
+  .frameworks {
+    grid-column: 2/span1;
+    grid-row: 1;
+  }
+
+  .skills {
+    grid-row: 2;
   }
 
   #contact {
@@ -620,10 +640,5 @@ fieldset > textarea:focus {
   .icon-wrapper {
     justify-content: space-evenly;
     width: 20vw;
-  }
-
-  .project-title {
-    font-size: 2em;
-    font-weight: 700;
   }
 }
