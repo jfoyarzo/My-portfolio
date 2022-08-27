@@ -359,12 +359,26 @@ fieldset > textarea:focus {
     justify-content: center;
   }
 
+  @keyframes slide-in {
+    from {
+      transform: translateY(-55px);
+    }
+
+    to {
+      transform: translateY(0);
+    }
+  }
+
   #hamburguer {
     display: none;
   }
 
   #menu-wrapper {
     display: flex;
+    animation: slide-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
   }
 
   #menu-wrapper > a {
@@ -395,6 +409,12 @@ fieldset > textarea:focus {
   .button {
     width: 15em;
     padding: 1.3em;
+    transition: all 0.2s ease-out;
+  }
+
+  .button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
   }
 
   .headline {
