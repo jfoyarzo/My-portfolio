@@ -528,6 +528,14 @@ fieldset > textarea:focus {
 
   .card-btn {
     width: 12em;
+    background-color: white;
+    color: #1a2236;
+  }
+
+  .card-btn:hover {
+    color: white;
+    background-color: #1a2236;
+    border: 1px solid white;
   }
 
   .card-list {
@@ -612,5 +620,10 @@ fieldset > textarea:focus {
   .icon-wrapper {
     justify-content: space-evenly;
     width: 20vw;
+  }
+
+  .project-title {
+    font-size: 2em;
+    font-weight: 700;
   }
 }
