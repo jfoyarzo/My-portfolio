@@ -424,7 +424,7 @@ fieldset > textarea:focus {
 
   .projects > h2 {
     font-size: 7em;
-    transform: rotate(-90deg) translate(400px, -750px);
+    transform: rotate(-90deg) translate(42vh, -40vw);
   }
 
   .project-title {
