@@ -1,6 +1,14 @@
 # My Portfolio
 
-A simple portfolio website. Currently in the second stage, consists of a navbar, a headline section, a projects section and an about section.
+A simple portfolio website. Currently in early stages, consists of the following sections:
+
+- Navbar
+- Headline
+- Projects
+- About
+- Contact
+
+The layout of the elements has been made using flexbox and CSS grid. Animations and transitions made with CSS. GitHub Pages has also been updated for this repository, please visit: [jfoyarzo.github.io/My-portfolio](http://jfoyarzo.github.io/My-portfolio)
 
 
 ## Built With
@@ -10,7 +18,9 @@ A simple portfolio website. Currently in the second stage, consists of a navbar,
 
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+You can now view an online version of this site on the following link: [jfoyarzo.github.io/My-portfolio](http://jfoyarzo.github.io/My-portfolio)<br>
+
+To get a local copy up and running follow these simple steps:
 
 ### Install
 You can use:<br>
