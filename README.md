@@ -8,7 +8,7 @@ A simple portfolio website. Currently in early stages, consists of the following
 - About
 - Contact
 
-The layout of the elements has been made using flexbox and CSS grid. Animations and transitions made with CSS. GitHub Pages has also been updated for this repository, please visit: [jfoyarzo.github.io/My-portfolio](http://jfoyarzo.github.io/My-portfolio)
+The layout of the elements has been made using flexbox and CSS grid. Animations and transitions made with CSS. GitHub Pages has also been updated for this repository, please visit: [https://jfoyarzo.github.io/My-portfolio/]
 
 
 ## Built With
@@ -18,7 +18,7 @@ The layout of the elements has been made using flexbox and CSS grid. Animations 
 
 ## Getting Started
 
-You can now view an online version of this site on the following link: [jfoyarzo.github.io/My-portfolio](http://jfoyarzo.github.io/My-portfolio)<br>
+You can now view an online version of this site on the following link: [https://jfoyarzo.github.io/My-portfolio/]<br>
 
 To get a local copy up and running follow these simple steps:
 
@@ -45,6 +45,9 @@ Feel free to check the [issues page](https://github.com/jfoyarzo/My-portfolio/is
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+👤 **Kanza Tahreem** https://github.com/KanzaTahreem
+- Contributed with the transitions on main buttons. (Thank you! 😺)
+___
 
 - Hat tip to anyone whose code was used
 
