@@ -11,7 +11,7 @@ h2 {
 }
 
 .nav-bar {
-  background-image: url('../assets/img/image_geometry_1.png');
+  background-image: url('./assets/img/image_geometry_1.png');
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 5em;
@@ -32,7 +32,7 @@ h2 {
 .headline {
   display: flex;
   flex-direction: column;
-  background-image: url('/assets/img/image_geometry_2.png');
+  background-image: url('./assets/img/image_geometry_2.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
