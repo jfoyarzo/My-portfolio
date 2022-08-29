@@ -11,7 +11,7 @@ h2 {
 }
 
 .nav-bar {
-  background-image: url('...img/image_geometry_1.png');
+  background-image: url('.../img/image_geometry_1.png');
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 5em;
