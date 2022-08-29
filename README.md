@@ -45,6 +45,9 @@ Feel free to check the [issues page](https://github.com/jfoyarzo/My-portfolio/is
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+👤 **Kanza Tahreem** https://github.com/KanzaTahreem
+- Contributed with the transitions on main buttons. (Thank you! 😺)
+___
 
 - Hat tip to anyone whose code was used
 
