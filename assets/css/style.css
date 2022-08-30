@@ -298,7 +298,7 @@ fieldset:focus-within {
 fieldset > label {
   font-size: 12px;
   margin-bottom: 8px;
-  color: #7d7c84;
+  color: #000000;
 }
 
 input {
