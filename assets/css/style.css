@@ -11,7 +11,7 @@ h2 {
 }
 
 .nav-bar {
-  background-image: url('/assets/img/image_geometry_1.png');
+  background-image: url('/My-portfolio/assets/img/image_geometry_1.png');
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 5em;
@@ -32,7 +32,7 @@ h2 {
 .headline {
   display: flex;
   flex-direction: column;
-  background-image: url('./assets/img/image_geometry_2.png');
+  background-image: url('/My-portfolio/assets/img/image_geometry_2.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
@@ -199,7 +199,7 @@ h2 {
 
 .languages {
   background-color: #1c528a;
-  background-image: url('/assets/img/hash.png');
+  background-image: url('/My-portfolio/assets/img/hash.png');
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 30%;
@@ -207,7 +207,7 @@ h2 {
 
 .frameworks {
   background-color: #e2505c;
-  background-image: url('/assets/img/diamond.png');
+  background-image: url('/My-portfolio/assets/img/diamond.png');
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 30%;
@@ -215,7 +215,7 @@ h2 {
 
 .skills {
   background-color: #febf52;
-  background-image: url('/assets/img/lightbulb.png');
+  background-image: url('/My-portfolio/assets/img/lightbulb.png');
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 30%;
@@ -234,33 +234,33 @@ h2 {
 }
 
 .image1 {
-  background-image: url('/assets/img/projects-img1.png');
+  background-image: url('/My-portfolio/assets/img/projects-img1.png');
 }
 
 .image2 {
-  background-image: url('/assets/img/projects-img2.png');
+  background-image: url('/My-portfolio/assets/img/projects-img2.png');
 }
 
 .image3 {
-  background-image: url('/assets/img/projects-img3.png');
+  background-image: url('/My-portfolio/assets/img/projects-img3.png');
 }
 
 .image4 {
-  background-image: url('/assets/img/projects-img4.png');
+  background-image: url('/My-portfolio/assets/img/projects-img4.png');
 }
 
 .image5 {
-  background-image: url('/assets/img/projects-img5.png');
+  background-image: url('/My-portfolio/assets/img/projects-img5.png');
 }
 
 .image6 {
-  background-image: url('/assets/img/projects-img6.png');
+  background-image: url('/My-portfolio/assets/img/projects-img6.png');
 }
 
 #contact {
   display: flex;
   flex-direction: column;
-  background-image: url('/assets/img/image_geometry_1.png');
+  background-image: url('/My-portfolio/assets/img/image_geometry_1.png');
   background-repeat: no-repeat;
   background-position: top left;
   background-size: 15vh;
@@ -396,7 +396,7 @@ fieldset > textarea:focus {
     height: 100%;
     padding: 0;
     margin: 0;
-    background-image: url('/assets/img/image_dots.png');
+    background-image: url('/My-portfolio/assets/img/image_dots.png');
     background-repeat: no-repeat;
     background-size: 20vh;
     background-position: bottom right;
@@ -421,7 +421,7 @@ fieldset > textarea:focus {
     height: 100vh;
     justify-content: center;
     padding: 0 10%;
-    background-image: url('/assets/img/image_geometry_3.png');
+    background-image: url('/My-portfolio/assets/img/image_geometry_3.png');
     background-size: 45% 100vh;
     background-position: right;
   }
@@ -436,7 +436,7 @@ fieldset > textarea:focus {
   }
 
   .projects {
-    background-image: url('/assets/img/image_dots.png');
+    background-image: url('/My-portfolio/assets/img/image_dots.png');
     background-repeat: no-repeat;
     background-position: 430px 210px;
     background-size: 20vh;
@@ -464,7 +464,7 @@ fieldset > textarea:focus {
   .layout1 {
     grid-row: 2;
     grid-column: 5/9;
-    background-image: url('/assets/img/grid-bg1.png');
+    background-image: url('/My-portfolio/assets/img/grid-bg1.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
@@ -473,7 +473,7 @@ fieldset > textarea:focus {
   .layout2 {
     grid-row: 3/ span1;
     grid-column: 7/-1;
-    background-image: url('/assets/img/grid-bg2.png');
+    background-image: url('/My-portfolio/assets/img/grid-bg2.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 0 190px;
@@ -482,7 +482,7 @@ fieldset > textarea:focus {
   .layout3 {
     grid-row: 4/span1;
     grid-column: 1/3;
-    background-image: url('/assets/img/grid-bg3.png');
+    background-image: url('/My-portfolio/assets/img/grid-bg3.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 0 590px;
@@ -491,7 +491,7 @@ fieldset > textarea:focus {
   .layout4 {
     grid-row: 4/span1;
     grid-column: 4/7;
-    background-image: url('/assets/img/grid-bg4.png');
+    background-image: url('/My-portfolio/assets/img/grid-bg4.png');
     background-repeat: no-repeat;
     background-size: 16vh;
     background-position: right 590px;
@@ -587,7 +587,7 @@ fieldset > textarea:focus {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     width: 50%;
-    background-image: url('/assets/img/image_dots_with_teal.png');
+    background-image: url('/My-portfolio/assets/img/image_dots_with_teal.png');
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 30vh;
@@ -616,13 +616,13 @@ fieldset > textarea:focus {
   }
 
   #contact {
-    background-image: url('/assets/img/contact-bg1.png');
+    background-image: url('/My-portfolio/assets/img/contact-bg1.png');
     background-size: 20vh;
     align-items: center;
   }
 
   #contact-section {
-    background-image: url('/assets/img/contact-bg2.png');
+    background-image: url('/My-portfolio/assets/img/contact-bg2.png');
     background-repeat: no-repeat;
     background-size: 30vh;
     background-position: 83vw 79vh;
