@@ -206,7 +206,7 @@ h2 {
 }
 
 .frameworks {
-  background-color: #e2505c;
+  background-color: #b02833;
   background-image: url('/assets/img/diamond.png');
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -471,7 +471,7 @@ fieldset > textarea:focus {
   }
 
   .layout2 {
-    grid-row: 3/ span1;
+    grid-row: 3 / span1;
     grid-column: 7/-1;
     background-image: url('/assets/img/grid-bg2.png');
     background-repeat: no-repeat;
@@ -480,7 +480,7 @@ fieldset > textarea:focus {
   }
 
   .layout3 {
-    grid-row: 4/span1;
+    grid-row: 4 / span1;
     grid-column: 1/3;
     background-image: url('/assets/img/grid-bg3.png');
     background-repeat: no-repeat;
@@ -489,7 +489,7 @@ fieldset > textarea:focus {
   }
 
   .layout4 {
-    grid-row: 4/span1;
+    grid-row: 4 / span1;
     grid-column: 4/7;
     background-image: url('/assets/img/grid-bg4.png');
     background-repeat: no-repeat;
