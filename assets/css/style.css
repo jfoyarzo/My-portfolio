@@ -282,6 +282,10 @@ h2 {
   flex-direction: column;
 }
 
+legend {
+  display: none;
+}
+
 fieldset {
   display: flex;
   flex-direction: column;
