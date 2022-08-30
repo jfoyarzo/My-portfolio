@@ -325,6 +325,10 @@ fieldset > textarea:focus {
   outline: none;
 }
 
+#textarea > label {
+  display: none;
+}
+
 .contact-form > button {
   margin: 15px 10px 6em 10px;
 }
