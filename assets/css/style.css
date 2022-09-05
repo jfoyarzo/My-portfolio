@@ -21,8 +21,11 @@ h2 {
   padding-right: 2%;
 }
 
-.nav-bar > a > img {
-  width: 1em;
+.menuIcon {
+  padding: 1rem;
+  border: none;
+  background-color: white;
+  margin-right: 1rem;
 }
 
 #menu-wrapper {
