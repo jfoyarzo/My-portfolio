@@ -32,6 +32,18 @@ h2 {
   background-color: white;
 }
 
+.visible {
+  display: block !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+#menu-wrapper{
+  display: none;
+}
+
 .closeIcon {
   position: fixed;
   z-index: 100;
@@ -41,7 +53,7 @@ h2 {
   display: none;
 }
 
-#menu-wrapper {
+.hidden {
   display: none;
 }
 
