@@ -1,234 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Felipe Oyarzo" />
+    <title>Felipe Oyarzo's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/493f30a6ae.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="Felipe Oyarzo" />
-  <title>Felipe Oyarzo's Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300;400;500;700&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <script src="https://kit.fontawesome.com/493f30a6ae.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <header>
-    <nav class="nav-bar">
-      <div id="menu-wrapper">
-        <a href="#hello">Hello</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#about">About</a>
-        <a href="#contact-section">Contact</a>
-      </div>
-      <button type="button" class="menuIcon"><i class="fa-solid fa-bars fa-2xl"></i></button>
-      <button type="button" class="closeIcon button"><i class="fa-solid fa-xmark fa-2xl"></i></button>
-    </nav>
-  </header>
-  <main>
-    <section class="headline" id="hello">
-      <div class="text-wrapper">
-        <h1>Felipe<br />Oyarzo</h1>
-        <p>
-          Hello! I am a software developer! I can help you build a product,
-          feature or website. Take a look of my works. If you like what you
-          see and have a project you need coded, don't hesitate and contact
-          me.
-        </p>
-        <button class="button" type="button" id="btnHeadline">
-          Start collaboration
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <button type="button" class="menuIcon">
+          <i class="fa-solid fa-bars fa-2xl"></i>
         </button>
-      </div>
-    </section>
-    <section class="projects" id="portfolio">
-      <h2>Projects</h2>
-      <div class="grid-container">
-        <div class="grid-layout layout1"></div>
-        <div class="grid-layout layout2"></div>
-        <div class="grid-layout layout3"></div>
-        <div class="grid-layout layout4"></div>
-        <div class="grid-layout layout5"></div>
-        <div class="grid-layout layout6"></div>
-        <div class="card card1">
-          <div class="card-image image1"></div>
-          <div class="card-body">
-            <h3 class="project-title">Project name goes here</h3>
-            <ul class="card-list">
-              <li class="card-list-item">HTML/CSS</li>
-              <li class="card-list-item">Ruby on Rails</li>
-              <li class="card-list-item">JavaScript</li>
-            </ul>
-            <button type="button" class="card-btn">
-              See this project &rarr;
-            </button>
-          </div>
-        </div>
-        <div class="card card2">
-          <div class="card-image image2"></div>
-          <div class="card-body">
-            <h3 class="project-title">Project name goes here</h3>
-            <ul class="card-list">
-              <li class="card-list-item">HTML/CSS</li>
-              <li class="card-list-item">Ruby on Rails</li>
-              <li class="card-list-item">JavaScript</li>
-            </ul>
-            <button type="button" class="card-btn">
-              See this project &rarr;
-            </button>
-          </div>
-        </div>
-        <div class="card card3">
-          <div class="card-image image3"></div>
-          <div class="card-body">
-            <h3 class="project-title">Project name goes here</h3>
-            <ul class="card-list">
-              <li class="card-list-item">HTML/CSS</li>
-              <li class="card-list-item">Ruby on Rails</li>
-              <li class="card-list-item">JavaScript</li>
-            </ul>
-            <button type="button" class="card-btn">
-              See this project &rarr;
-            </button>
-          </div>
-        </div>
-        <div class="card card4">
-          <div class="card-image image4"></div>
-          <div class="card-body">
-            <h3 class="project-title">Project name goes here</h3>
-            <ul class="card-list">
-              <li class="card-list-item">HTML/CSS</li>
-              <li class="card-list-item">Ruby on Rails</li>
-              <li class="card-list-item">JavaScript</li>
-            </ul>
-            <button type="button" class="card-btn">
-              See this project &rarr;
-            </button>
-          </div>
-        </div>
-        <div class="card card5">
-          <div class="card-image image5"></div>
-          <div class="card-body">
-            <h3 class="project-title">Project name goes here</h3>
-            <ul class="card-list">
-              <li class="card-list-item">HTML/CSS</li>
-              <li class="card-list-item">Ruby on Rails</li>
-              <li class="card-list-item">JavaScript</li>
-            </ul>
-            <button type="button" class="card-btn">
-              See this project &rarr;
-            </button>
-          </div>
-        </div>
-        <div class="card card6">
-          <div class="card-image image6"></div>
-          <div class="card-body">
-            <h3 class="project-title">Project name goes here</h3>
-            <ul class="card-list">
-              <li class="card-list-item">HTML/CSS</li>
-              <li class="card-list-item">Ruby on Rails</li>
-              <li class="card-list-item">JavaScript</li>
-            </ul>
-            <button type="button" class="card-btn">
-              See this project &rarr;
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="about" id="about">
-      <div class="about-wrapper">
-        <h2>About</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ea eiusmod
-        </p>
-        <button type="button" class="button">
-          Get my CV
-          <img src="./assets/img/ic_download.png" width="32" alt="Download icon" class="dl-icon" />
+        <button type="button" class="closeIcon button">
+          <i class="fa-solid fa-xmark fa-2xl"></i>
         </button>
-      </div>
-      <ul class="main-list">
-        <li class="main-item languages">
-          <h3>Languages</h3>
-          <ul class="sub-list">
-            <li>JavaScript (ES5/ES6)</li>
-            <li>Ruby</li>
-            <li>HTML</li>
-            <li>CSS</li>
-          </ul>
-        </li>
-        <li class="main-item frameworks">
-          <h3>Frameworks</h3>
-          <ul class="sub-list">
-            <li>Bootstrap</li>
-            <li>Ruby on rails</li>
-            <li>RSpec</li>
-            <li>Capibara</li>
-            <li>Selenium</li>
-          </ul>
-        </li>
-        <li class="main-item skills">
-          <h3>Skills</h3>
-          <ul class="sub-list">
-            <li>Codekit</li>
-            <li>Codepen</li>
-            <li>GitHub</li>
-            <li>GitLab</li>
-            <li>Terminal</li>
-          </ul>
-        </li>
-      </ul>
-    </section>
-    <section id="contact-section">
-      <div id="contact">
-        <div class="text-wrapper contact-wrapper">
-          <h2>Get started</h2>
+        <div id="menu-wrapper">
+          <a href="#hello">Hello</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#about">About</a>
+          <a href="#contact-section">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="headline" id="hello">
+        <div class="text-wrapper">
+          <h1>Felipe<br />Oyarzo</h1>
+          <p>
+            Hello! I am a software developer! I can help you build a product,
+            feature or website. Take a look of my works. If you like what you
+            see and have a project you need coded, don't hesitate and contact
+            me.
+          </p>
+          <button class="button" type="button" id="btnHeadline">
+            Start collaboration
+          </button>
+        </div>
+      </section>
+      <section class="projects" id="portfolio">
+        <h2>Projects</h2>
+        <div class="grid-container">
+          <div class="grid-layout layout1"></div>
+          <div class="grid-layout layout2"></div>
+          <div class="grid-layout layout3"></div>
+          <div class="grid-layout layout4"></div>
+          <div class="grid-layout layout5"></div>
+          <div class="grid-layout layout6"></div>
+          <div class="card card1">
+            <div class="card-image image1"></div>
+            <div class="card-body">
+              <h3 class="project-title">Project name goes here</h3>
+              <ul class="card-list">
+                <li class="card-list-item">HTML/CSS</li>
+                <li class="card-list-item">Ruby on Rails</li>
+                <li class="card-list-item">JavaScript</li>
+              </ul>
+              <button type="button" class="card-btn">
+                See this project &rarr;
+              </button>
+            </div>
+          </div>
+          <div class="card card2">
+            <div class="card-image image2"></div>
+            <div class="card-body">
+              <h3 class="project-title">Project name goes here</h3>
+              <ul class="card-list">
+                <li class="card-list-item">HTML/CSS</li>
+                <li class="card-list-item">Ruby on Rails</li>
+                <li class="card-list-item">JavaScript</li>
+              </ul>
+              <button type="button" class="card-btn">
+                See this project &rarr;
+              </button>
+            </div>
+          </div>
+          <div class="card card3">
+            <div class="card-image image3"></div>
+            <div class="card-body">
+              <h3 class="project-title">Project name goes here</h3>
+              <ul class="card-list">
+                <li class="card-list-item">HTML/CSS</li>
+                <li class="card-list-item">Ruby on Rails</li>
+                <li class="card-list-item">JavaScript</li>
+              </ul>
+              <button type="button" class="card-btn">
+                See this project &rarr;
+              </button>
+            </div>
+          </div>
+          <div class="card card4">
+            <div class="card-image image4"></div>
+            <div class="card-body">
+              <h3 class="project-title">Project name goes here</h3>
+              <ul class="card-list">
+                <li class="card-list-item">HTML/CSS</li>
+                <li class="card-list-item">Ruby on Rails</li>
+                <li class="card-list-item">JavaScript</li>
+              </ul>
+              <button type="button" class="card-btn">
+                See this project &rarr;
+              </button>
+            </div>
+          </div>
+          <div class="card card5">
+            <div class="card-image image5"></div>
+            <div class="card-body">
+              <h3 class="project-title">Project name goes here</h3>
+              <ul class="card-list">
+                <li class="card-list-item">HTML/CSS</li>
+                <li class="card-list-item">Ruby on Rails</li>
+                <li class="card-list-item">JavaScript</li>
+              </ul>
+              <button type="button" class="card-btn">
+                See this project &rarr;
+              </button>
+            </div>
+          </div>
+          <div class="card card6">
+            <div class="card-image image6"></div>
+            <div class="card-body">
+              <h3 class="project-title">Project name goes here</h3>
+              <ul class="card-list">
+                <li class="card-list-item">HTML/CSS</li>
+                <li class="card-list-item">Ruby on Rails</li>
+                <li class="card-list-item">JavaScript</li>
+              </ul>
+              <button type="button" class="card-btn">
+                See this project &rarr;
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="about-wrapper">
+          <h2>About</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna.
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ea eiusmod
           </p>
+          <button type="button" class="button">
+            Get my CV
+            <img
+              src="./assets/img/ic_download.png"
+              width="32"
+              alt="Download icon"
+              class="dl-icon"
+            />
+          </button>
         </div>
-        <form action="https://formspree.io/f/xbjblgky" class="contact-form" method="POST">
-          <fieldset>
-            <legend>Name</legend>
-            <label for="name">Your name</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name" maxlength="30" required />
-          </fieldset>
-          <fieldset>
-            <legend>Email</legend>
-            <label for="email">Your email</label>
-            <input type="email" id="email" name="email" placeholder="Enter you email" required />
-          </fieldset>
-          <fieldset id="textarea">
-            <legend>Message</legend>
-            <label for="message">Write your message:</label>
-            <textarea name="message" id="message" placeholder="Enter your message" maxlength="500" required></textarea>
-          </fieldset>
-          <button type="submit" class="button">Start collaboration</button>
-        </form>
+        <ul class="main-list">
+          <li class="main-item languages">
+            <h3>Languages</h3>
+            <ul class="sub-list">
+              <li>JavaScript (ES5/ES6)</li>
+              <li>Ruby</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </li>
+          <li class="main-item frameworks">
+            <h3>Frameworks</h3>
+            <ul class="sub-list">
+              <li>Bootstrap</li>
+              <li>Ruby on rails</li>
+              <li>RSpec</li>
+              <li>Capibara</li>
+              <li>Selenium</li>
+            </ul>
+          </li>
+          <li class="main-item skills">
+            <h3>Skills</h3>
+            <ul class="sub-list">
+              <li>Codekit</li>
+              <li>Codepen</li>
+              <li>GitHub</li>
+              <li>GitLab</li>
+              <li>Terminal</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section id="contact-section">
+        <div id="contact">
+          <div class="text-wrapper contact-wrapper">
+            <h2>Get started</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna.
+            </p>
+          </div>
+          <form
+            action="https://formspree.io/f/xbjblgky"
+            class="contact-form"
+            method="POST"
+          >
+            <fieldset>
+              <legend>Name</legend>
+              <label for="name">Your name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                maxlength="30"
+                required
+              />
+            </fieldset>
+            <fieldset>
+              <legend>Email</legend>
+              <label for="email">Your email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter you email"
+                required
+              />
+            </fieldset>
+            <fieldset id="textarea">
+              <legend>Message</legend>
+              <label for="message">Write your message:</label>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Enter your message"
+                maxlength="500"
+                required
+              ></textarea>
+            </fieldset>
+            <button type="submit" class="button">Start collaboration</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-text-wrapper">
+        <a href="#"
+          >Get my Resume
+          <img
+            src="./assets/img/get-resume.png"
+            alt="Click to download resume"
+            height="20"
+            id="get-resume"
+        /></a>
       </div>
-    </section>
-  </main>
-  <footer class="footer">
-    <div class="footer-text-wrapper">
-      <a href="#">Get my Resume <img src="./assets/img/get-resume.png" alt="Click to download resume" height="20"
-          id="get-resume"></a>
-    </div>
-    <div class="icon-wrapper">
-      <a href="#"><img src="./assets/img/ic_stackoverflow.png" alt="stack overflow"></a>
-      <a href="#"><img src="./assets/img/ic_github.png" alt="github"></a>
-      <a href="#"><img src="./assets/img/ic_twitter.png" alt="twitter"></a>
-      <a href="#"><img src="./assets/img/ic_linkedin.png" alt="linkedin"></a>
-      <a href="#"><img src="./assets/img/ic_medium.png" alt="medium"></a>
-      <a href="#"><img src="./assets/img/ic_angellist.png" alt="angel list"></a>
-    </div>
-  </footer>
-</body>
-
+      <div class="icon-wrapper">
+        <a href="#"
+          ><img src="./assets/img/ic_stackoverflow.png" alt="stack overflow"
+        /></a>
+        <a href="#"><img src="./assets/img/ic_github.png" alt="github" /></a>
+        <a href="#"><img src="./assets/img/ic_twitter.png" alt="twitter" /></a>
+        <a href="#"
+          ><img src="./assets/img/ic_linkedin.png" alt="linkedin"
+        /></a>
+        <a href="#"><img src="./assets/img/ic_medium.png" alt="medium" /></a>
+        <a href="#"
+          ><img src="./assets/img/ic_angellist.png" alt="angel list"
+        /></a>
+      </div>
+    </footer>
+  </body>
 </html>
