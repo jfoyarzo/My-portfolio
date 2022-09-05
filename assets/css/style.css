@@ -33,15 +33,43 @@ h2 {
 }
 
 .visible {
-  display: block !important;
+  display: block;
 }
 
 .hidden {
-  display: none !important;
+  display: none;
 }
 
-#menu-wrapper{
+.slide-in {
+  display: flex;
+  transform: translateX(0);
+  opacity: 1;
+}
+
+#menu-wrapper {
+  background-color: white;
+  opacity: 0;
+  position: fixed;
+  transform: translateX(100%);
+  transition: transform 0.2s, opacity 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
   display: none;
+}
+
+.footer-text-wrapper a {
+  color: #92dcdc;
+  text-decoration: none;
+}
+
+#menu-wrapper a {
+  text-decoration: none;
+  color: #1a2236;
+  font-size: 1.5em;
+  margin: 1em 0;
 }
 
 .closeIcon {
@@ -50,10 +78,6 @@ h2 {
   top: 1rem;
   right: 1rem;
   padding: 1rem;
-  display: none;
-}
-
-.hidden {
   display: none;
 }
 
@@ -368,11 +392,6 @@ fieldset > textarea:focus {
 .footer {
   background-color: #1a2236;
   padding: 30px;
-}
-
-.footer-text-wrapper > a {
-  color: #92dcdc;
-  text-decoration: none;
 }
 
 #get-resume {
