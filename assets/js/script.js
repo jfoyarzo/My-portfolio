@@ -59,6 +59,7 @@ const hamburger = document.querySelector('.menuIcon');
 const closeX = document.querySelector('.closeIcon');
 const dropdown = document.querySelector('.menu-wrapper');
 const menuItems = document.querySelectorAll('.menu-item');
+let cardContainer = document.querySelector('.grid-container');
 
 const toggleMenu = () => {
   dropdown.classList.toggle('slide-in');
@@ -73,8 +74,8 @@ menuItems.forEach((e) => {
 });
 
 let card = '';
-let li = '';
 for (let i = 0; i < projects.length; i++) {
+  let li = '';
   let eachObj = projects[i];
   let tech = projects[i].technologies;
   for (let j = 0; j < tech.length; j++) {
@@ -83,8 +84,8 @@ for (let i = 0; i < projects.length; i++) {
 `;
   }
   card += `
- <div class="card card${i+1}">
-            <div class="card-image image1">
+ <div class="card card${i + 1}">
+            <div class="card-image image${i + 1}">
               <img src="${eachObj.featured_image}" alt="">
             </div>
             <div class="card-body">
@@ -99,3 +100,4 @@ for (let i = 0; i < projects.length; i++) {
           </div>
 `;
 }
+cardContainer.innerHTML = card;
