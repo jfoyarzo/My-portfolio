@@ -95,7 +95,7 @@ for (let i = 0; i < projects.length; i++) {
               <ul class="card-list">
               ${li}
               </ul>
-              <button type="button" class="card-btn">
+              <button myIndex=${i} type="button" class="card-btn">
                 See this project &rarr;
               </button>
             </div>
@@ -103,3 +103,14 @@ for (let i = 0; i < projects.length; i++) {
 `;
 }
 cardContainer.innerHTML = card;
+
+const showModal = () => {
+  const btn = document.querySelectorAll('.card-btn');
+  btn.forEach((e) => {
+    e.addEventListener('click', () => {
+      let index = e.getAttribute('myIndex');
+      console.log(index);
+    });
+  });
+};
+showModal();
