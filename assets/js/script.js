@@ -72,21 +72,25 @@ menuItems.forEach((e) => {
   e.addEventListener('click', toggleMenu);
 });
 
-let card='';
+let card = '';
+let li = '';
 for (let i = 0; i < projects.length; i++) {
-  let eachObj=projects[i];
-
-card += `
- <div class="card card1">
+  let eachObj = projects[i];
+  let tech = projects[i].technologies;
+  for (let j = 0; j < tech.length; j++) {
+    li += `
+<li class="card-list-item">${tech[j]}</li>
+`;
+  }
+  card += `
+ <div class="card card${i+1}">
             <div class="card-image image1">
               <img src="${eachObj.featured_image}" alt="">
             </div>
             <div class="card-body">
               <h3 class="project-title">${eachObj.title}</h3>
               <ul class="card-list">
-                <li class="card-list-item">HTML/CSS</li>
-                <li class="card-list-item">Ruby on Rails</li>
-                <li class="card-list-item">JavaScript</li>
+              ${li}
               </ul>
               <button type="button" class="card-btn">
                 See this project &rarr;
