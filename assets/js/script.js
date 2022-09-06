@@ -85,8 +85,10 @@ for (let i = 0; i < projects.length; i++) {
   }
   card += `
  <div class="card card${i + 1}">
-            <div class="card-image image${i + 1}">
-              <img src="${eachObj.featured_image}" alt="">
+            <div >
+              <img class="card-image image${i + 1}" src="${
+    eachObj.featured_image
+  }" alt="">
             </div>
             <div class="card-body">
               <h3 class="project-title">${eachObj.title}</h3>
