@@ -32,6 +32,11 @@ h2 {
   background-color: white;
 }
 
+.menuIcon:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
 .hidden {
   display: none;
 }
@@ -89,6 +94,11 @@ h2 {
   top: 1rem;
   right: 1rem;
   padding: 1rem;
+}
+
+.closeIcon:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 .headline {
