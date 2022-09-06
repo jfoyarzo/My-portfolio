@@ -5,7 +5,7 @@ const dropdown = document.querySelector('.menu-wrapper');
 const toggleMenu = () => {
   dropdown.classList.toggle('slide-in');
   hamburger.classList.toggle('hidden');
-  closeX.classList.toggle('visible');
+  closeX.classList.toggle('hidden');
 };
 
 hamburger.addEventListener('click', toggleMenu);

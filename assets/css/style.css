@@ -32,12 +32,8 @@ h2 {
   background-color: white;
 }
 
-.visible {
-  display: block !important;
-}
-
 .hidden {
-  display: none !important;
+  display: none;
 }
 
 .menu-wrapper {
@@ -80,7 +76,6 @@ h2 {
   top: 1rem;
   right: 1rem;
   padding: 1rem;
-  display: none;
 }
 
 .headline {
@@ -426,12 +421,20 @@ fieldset > textarea:focus {
     }
   }
 
-  #hamburguer {
+  .menuIcon {
+    display: none;
+  }
+
+  .closeIcon {
     display: none;
   }
 
   .menu-wrapper {
     display: flex;
+    flex-direction: row;
+    opacity: 1;
+    position: initial;
+    transform: initial;
     animation: slide-in;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
