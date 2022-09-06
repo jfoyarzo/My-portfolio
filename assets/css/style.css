@@ -33,31 +33,33 @@ h2 {
 }
 
 .visible {
-  display: block;
+  display: block !important;
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
-.slide-in {
+.menu-wrapper {
   display: flex;
-  transform: translateX(0);
-  opacity: 1;
-}
-
-#menu-wrapper {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: white;
   opacity: 0;
   position: fixed;
   transform: translateX(100%);
-  transition: transform 0.2s, opacity 0.2s;
+  transition: transform 0.3s ease-out, opacity 0.4s;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: 99;
-  display: none;
+}
+
+.slide-in {
+  transform: translateX(0%);
+  opacity: 1;
 }
 
 .footer-text-wrapper a {
@@ -65,7 +67,7 @@ h2 {
   text-decoration: none;
 }
 
-#menu-wrapper a {
+.menu-wrapper a {
   text-decoration: none;
   color: #1a2236;
   font-size: 1.5em;
@@ -428,7 +430,7 @@ fieldset > textarea:focus {
     display: none;
   }
 
-  #menu-wrapper {
+  .menu-wrapper {
     display: flex;
     animation: slide-in;
     animation-duration: 1s;
@@ -436,13 +438,13 @@ fieldset > textarea:focus {
     animation-iteration-count: 1;
   }
 
-  #menu-wrapper > a {
+  .menu-wrapper > a {
     margin-right: 50px;
     text-decoration: none;
     color: #1a2236;
   }
 
-  #menu-wrapper > a:hover {
+  .menu-wrapper > a:hover {
     text-decoration: underline #1a2236 2px;
   }
 
