@@ -384,6 +384,11 @@ fieldset > textarea:focus {
   display: none;
 }
 
+.errorMsg {
+  align-self: center;
+  color: red;
+}
+
 .contact-form > button {
   margin: 15px 10px 6em 10px;
 }

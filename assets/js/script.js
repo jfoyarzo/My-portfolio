@@ -158,6 +158,6 @@ submitBtn.addEventListener('click', (e) => {
     form.submit();
   } else {
     e.preventDefault();
-    error.innerHTML = 'Please enter email in lowercase only';
+    error.innerHTML = 'Please enter a valid email adress in lowercase letters only';
   }
 });
