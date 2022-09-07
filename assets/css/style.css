@@ -575,7 +575,7 @@ fieldset > textarea:focus {
 
   .card2 {
     grid-column: 1/5;
-    margin-top: 5em;
+    margin-top: 1.8em;
   }
 
   .image2 {
@@ -590,7 +590,7 @@ fieldset > textarea:focus {
   }
 
   .image3 {
-    height: 400px;
+    height: 350px;
     overflow: hidden;
   }
 

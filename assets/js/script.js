@@ -74,7 +74,7 @@ menuItems.forEach((e) => {
 });
 
 for (let i = 0; i < projects.length; i += 1) {
-  let cardDiv = document.createElement('div');
+  const cardDiv = document.createElement('div');
   cardDiv.className = `card card${i + 1}`;
   let li = '';
   const eachObj = projects[i];
