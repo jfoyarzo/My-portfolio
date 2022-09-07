@@ -146,5 +146,18 @@ const showModal = () => {
 showModal();
 
 const error = document.querySelector('.errorMsg');
-const submitBtn = document.querySelector('.submit-btn');
+const submitBtn = document.querySelector('#submit-btn');
 const form = document.querySelector('.contact-form');
+const email = document.querySelector('#email');
+const emailInput = email.value;
+
+submitBtn.addEventListener('click', (e) => {
+  const regEx = /^([a-z0-9_\-.]+)@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/;
+
+  if (emailInput.match(regEx)) {
+    form.submit();
+  } else {
+    e.preventDefault();
+    error.innerHTML = 'Please enter email in lowercase only';
+  }
+});
