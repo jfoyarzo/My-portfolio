@@ -144,3 +144,7 @@ const showModal = () => {
   });
 };
 showModal();
+
+const error = document.querySelector('.errorMsg');
+const submitBtn = document.querySelector('.submit-btn');
+const form = document.querySelector('.contact-form');
