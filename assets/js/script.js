@@ -148,13 +148,12 @@ showModal();
 const error = document.querySelector('.errorMsg');
 const submitBtn = document.querySelector('#submit-btn');
 const form = document.querySelector('.contact-form');
-const email = document.querySelector('#email');
-const emailInput = email.value;
 
 submitBtn.addEventListener('click', (e) => {
   const regEx = /^([a-z0-9_\-.]+)@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/;
+  const email = document.querySelector('#email').value;
 
-  if (emailInput.match(regEx)) {
+  if (email.match(regEx)) {
     form.submit();
   } else {
     e.preventDefault();
