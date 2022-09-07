@@ -144,3 +144,19 @@ const showModal = () => {
   });
 };
 showModal();
+
+const error = document.querySelector('.errorMsg');
+const submitBtn = document.querySelector('#submit-btn');
+const form = document.querySelector('.contact-form');
+
+submitBtn.addEventListener('click', (e) => {
+  const regEx = /^([a-z0-9_\-.]+)@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/;
+  const email = document.querySelector('#email').value;
+
+  if (email.match(regEx)) {
+    form.submit();
+  } else {
+    e.preventDefault();
+    error.innerHTML = 'Please enter a valid email adress in lowercase letters only';
+  }
+});
