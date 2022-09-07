@@ -387,10 +387,11 @@ fieldset > textarea:focus {
 .errorMsg {
   align-self: center;
   color: red;
+  margin-bottom: 6em;
 }
 
 .contact-form > button {
-  margin: 15px 10px 6em 10px;
+  margin: 15px 10px 0.5em 10px;
 }
 
 .footer {
@@ -857,6 +858,10 @@ fieldset > textarea:focus {
   }
 
   .contact-form > button {
+    margin-bottom: 0.5em;
+  }
+
+  .errorMsg {
     margin-bottom: 11em;
   }
 
