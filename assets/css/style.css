@@ -197,6 +197,7 @@ h2 {
   color: #1a2236;
   background-color: white;
   border: 1px solid black;
+  cursor: pointer;
 }
 
 .card-btn:active {
@@ -426,6 +427,10 @@ fieldset > textarea:focus {
   margin-left: 85%;
 }
 
+.closeModal:hover {
+  cursor: pointer;
+}
+
 .modal-header h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 2em;
@@ -472,6 +477,13 @@ fieldset > textarea:focus {
   font-size: 1em;
   padding: 0.5em;
   margin-top: 1em;
+}
+
+.modal-button:hover {
+  color: white;
+  background-color: #1a2236;
+  border: 1px solid white;
+  cursor: pointer;
 }
 
 .projects-navigation {
