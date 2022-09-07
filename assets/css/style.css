@@ -164,7 +164,7 @@ h2 {
 .project-title {
   margin: 0% 0% 2% 0%;
   font-weight: 300;
-  font-size: 1.4em;
+  font-size: 1.4rem;
 }
 
 .card-list {
@@ -299,34 +299,12 @@ h2 {
 
 .card-image {
   min-height: 25.3vh;
-  height: auto;
   width: auto;
-  background-repeat: no-repeat;
-  background-size: 100vw;
+  overflow: hidden;
 }
 
-.image1 {
-  background-image: url('/assets/img/projects-img1.png');
-}
-
-.image2 {
-  background-image: url('/assets/img/projects-img2.png');
-}
-
-.image3 {
-  background-image: url('/assets/img/projects-img3.png');
-}
-
-.image4 {
-  background-image: url('/assets/img/projects-img4.png');
-}
-
-.image5 {
-  background-image: url('/assets/img/projects-img5.png');
-}
-
-.image6 {
-  background-image: url('/assets/img/projects-img6.png');
+.card-image img {
+  width: 100%;
 }
 
 #contact {
@@ -592,7 +570,7 @@ fieldset > textarea:focus {
 
   .image1 {
     height: 500px;
-    background-size: cover;
+    overflow: hidden;
   }
 
   .card2 {
@@ -602,7 +580,7 @@ fieldset > textarea:focus {
 
   .image2 {
     height: 300px;
-    background-size: cover;
+    overflow: hidden;
   }
 
   .card3 {
@@ -612,8 +590,8 @@ fieldset > textarea:focus {
   }
 
   .image3 {
-    background-size: cover;
     height: 400px;
+    overflow: hidden;
   }
 
   .card4 {
@@ -623,7 +601,7 @@ fieldset > textarea:focus {
 
   .image4 {
     height: 50vh;
-    background-size: cover;
+    overflow: hidden;
   }
 
   .card5 {
@@ -633,7 +611,7 @@ fieldset > textarea:focus {
 
   .image5 {
     height: 50vh;
-    background-size: cover;
+    overflow: hidden;
   }
 
   .card6 {

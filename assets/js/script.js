@@ -59,7 +59,7 @@ const hamburger = document.querySelector('.menuIcon');
 const closeX = document.querySelector('.closeIcon');
 const dropdown = document.querySelector('.menu-wrapper');
 const menuItems = document.querySelectorAll('.menu-item');
-let cardContainer = document.querySelector('.grid-container');
+const cardContainer = document.querySelector('.grid-container');
 
 const toggleMenu = () => {
   dropdown.classList.toggle('slide-in');
@@ -73,22 +73,20 @@ menuItems.forEach((e) => {
   e.addEventListener('click', toggleMenu);
 });
 
-let card = '';
-for (let i = 0; i < projects.length; i++) {
+for (let i = 0; i < projects.length; i += 1) {
+  let cardDiv = document.createElement('div');
+  cardDiv.className = `card card${i + 1}`;
   let li = '';
-  let eachObj = projects[i];
-  let tech = projects[i].technologies;
-  for (let j = 0; j < tech.length; j++) {
+  const eachObj = projects[i];
+  const tech = projects[i].technologies;
+  for (let j = 0; j < tech.length; j += 1) {
     li += `
 <li class="card-list-item">${tech[j]}</li>
 `;
   }
-  card += `
- <div class="card card${i + 1}">
-            <div >
-              <img class="card-image image${i + 1}" src="${
-    eachObj.featured_image
-  }" alt="">
+  cardDiv.innerHTML = `
+          <div class="card-image image${i + 1}">
+              <img src="${eachObj.featured_image}" alt="">
             </div>
             <div class="card-body">
               <h3 class="project-title">${eachObj.title}</h3>
@@ -98,18 +96,16 @@ for (let i = 0; i < projects.length; i++) {
               <button myIndex=${i} type="button" class="card-btn">
                 See this project &rarr;
               </button>
-            </div>
           </div>
 `;
+  cardContainer.append(cardDiv);
 }
-cardContainer.innerHTML = card;
 
 const showModal = () => {
   const btn = document.querySelectorAll('.card-btn');
   btn.forEach((e) => {
     e.addEventListener('click', () => {
-      let index = e.getAttribute('myIndex');
-      console.log(index);
+      const index = e.getAttribute('myIndex');
     });
   });
 };
