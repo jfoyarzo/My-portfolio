@@ -101,11 +101,45 @@ for (let i = 0; i < projects.length; i += 1) {
   cardContainer.append(cardDiv);
 }
 
+const modal = document.querySelector('.modal');
+
 const showModal = () => {
   const btn = document.querySelectorAll('.card-btn');
   btn.forEach((e) => {
     e.addEventListener('click', () => {
       const index = e.getAttribute('myIndex');
+      modal.classList.toggle('hidden');
+      const tech = projects[index].technologies;
+      let li = '';
+      for (let i = 0; i < tech.length; i += 1) {
+        li += `
+<li class="modal-list-item">${tech[i]}</li>
+`;
+      }
+      modal.innerHTML = `
+      <div class="modal-content">
+      <div class="modal-header">
+        <span class="closeModal"><i class="fa-solid fa-xmark fa-2xl"></i></span>
+        <h2>${projects[index].title}</h2>
+        <ul class="modal-list">
+          ${li}
+        </ul>
+      </div>
+      <div class="modal-body">
+        <img src="${projects[index].featured_image}" alt="Project image">
+        <p>${projects[index].description}</p>
+        <div class="button-wrapper">
+          <button type="button" class="modal-button">See live<i class="fa-solid fa-arrow-up-right-from-square"
+              data-fa-transform="grow-15 right-100"></i></button><button type="button" class="modal-button">See source<i
+              class="modal-icon fa-brands fa-github" data-fa-transform="grow-15 right-90"></i></button>
+        </div>
+        <div class="projects-navigation">
+          <span><i class="fa-solid fa-arrow-left-long"></i> Previous Project </span><span>Next Project <i class="fa-solid fa-arrow-right-long"></i></span>
+        </div>
+      </div>
+    </div>`;
+      const close = document.querySelector('.closeModal');
+      close.addEventListener('click', () => modal.classList.toggle('hidden'));
     });
   });
 };
