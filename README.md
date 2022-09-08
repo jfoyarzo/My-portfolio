@@ -19,6 +19,8 @@ The layout of the elements has been made using flexbox and CSS grid. Animations 
 
 ## Getting Started
 
+You can now view an online version of this site on the following link: [https://jfoyarzo.github.io/My-portfolio/]<br>
+
 To get a local copy up and running follow these simple steps:
 
 ### Install
@@ -53,6 +55,7 @@ ___
 👤 **Nurudeen Salifu** https://github.com/Alhajideen
 - Contributed with Javascript code for mobile menu, projects section, modal window and form validation (Thank you! 😺)
 ---
+
 - Hat tip to anyone whose code was used
 
 ## 📝 License
