@@ -180,4 +180,13 @@ formArray.forEach((e) => {
 window.addEventListener('load', () => {
   let formInfo = JSON.parse(localStorage.getItem('formValues'));
   console.log(formInfo);
+  if (formInfo) {
+    inputs[1].value = formInfo['name'];
+    inputs[3].value = formInfo['email'];
+    inputs[5].value = formInfo['message'];
+  } else {
+    inputs[1].value = '';
+    inputs[3].value = '';
+    inputs[5].value = '';
+  }
 });
