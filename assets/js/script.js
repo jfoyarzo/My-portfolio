@@ -160,3 +160,19 @@ submitBtn.addEventListener('click', (e) => {
     error.innerHTML = 'Please enter a valid email adress in lowercase letters only';
   }
 });
+
+
+const inputs = form.elements;
+console.log(inputs);
+const formArray = [inputs[1], inputs[3], inputs[5]];
+formArray.forEach((e) => {
+  e.addEventListener('change', () => {
+    let formObj = {
+      name: formArray[0].value,
+      email: formArray[1].value,
+      message: formArray[2].value,
+    };
+    console.log(formObj);
+    localStorage.setItem('formValues', JSON.stringify(formObj));
+  });
+});
