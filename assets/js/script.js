@@ -157,10 +157,10 @@ submitBtn.addEventListener('click', (e) => {
     form.submit();
   } else {
     e.preventDefault();
-    error.innerHTML = 'Please enter a valid email adress in lowercase letters only';
+    error.innerHTML =
+      'Please enter a valid email adress in lowercase letters only';
   }
 });
-
 
 const inputs = form.elements;
 console.log(inputs);
@@ -175,4 +175,9 @@ formArray.forEach((e) => {
     console.log(formObj);
     localStorage.setItem('formValues', JSON.stringify(formObj));
   });
+});
+
+window.addEventListener('load', () => {
+  let formInfo = JSON.parse(localStorage.getItem('formValues'));
+  console.log(formInfo);
 });
