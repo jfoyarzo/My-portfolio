@@ -1,12 +1,11 @@
 const projects = [
   {
-    title: 'Project 1',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel eros interdum, malesuada erat quis, rhoncus nibh. Nam egestas sit amet sapien facilisis sollicitudin. Pellentesque rutrum felis nisl, a ultricies eros semper in. Aenean lacus elit, hendrerit nec erat nec, consequat vestibulum nibh.',
-    featured_image: './assets/img/projects-img1.png',
-    technologies: ['HTML/CSS', 'Ruby on rails', 'Javascript'],
-    live_version: 'https://jfoyarzo.github.io/Project1',
-    source: 'https://github.com/jfoyarzo/Project1',
+    title: 'Capstone Project for first module at Microverse',
+    description: 'The first Capstone Project of the Microverse curriculum. The site consists of a homepage and an about page. The event is a fictional web development summit. The layout of the elements has been made using a mixture of SCSS and Bootstrap 5 for responsiveness. Animations and transitions made with CSS. JavaScript used for user interactions and dynamically generated content. Built With HTML5, SCSS, Bootstrap 5, and JavaScript',
+    featured_image: './assets/img/capstoneProject_1.png',
+    technologies: ['HTML5', 'SCSS', 'Bootstrap 5', 'Javascript'],
+    live_version: 'https://jfoyarzo.github.io/capstone1-WebdevSummit/index.html',
+    source: 'https://github.com/jfoyarzo/capstone1-WebdevSummit',
   },
   {
     title: 'Project 2',
@@ -129,8 +128,8 @@ const showModal = () => {
         <img src="${projects[index].featured_image}" alt="Project image">
         <p>${projects[index].description}</p>
         <div class="button-wrapper">
-          <button type="button" class="modal-button">See live<i class="fa-solid fa-arrow-up-right-from-square"
-              data-fa-transform="grow-15 right-100"></i></button><button type="button" class="modal-button">See source<i
+          <button type="button" onclick="window.open('${projects[index].live_version}','_blank');" class="modal-button">See live<i class="fa-solid fa-arrow-up-right-from-square"
+              data-fa-transform="grow-15 right-100"></i></button><button type="button" onclick="window.open('${projects[index].source}','_blank');" class="modal-button">See source<i
               class="modal-icon fa-brands fa-github" data-fa-transform="grow-15 right-90"></i></button>
         </div>
         <div class="projects-navigation">
