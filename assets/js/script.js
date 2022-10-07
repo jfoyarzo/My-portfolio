@@ -1,12 +1,11 @@
 const projects = [
   {
-    title: 'Project 1',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel eros interdum, malesuada erat quis, rhoncus nibh. Nam egestas sit amet sapien facilisis sollicitudin. Pellentesque rutrum felis nisl, a ultricies eros semper in. Aenean lacus elit, hendrerit nec erat nec, consequat vestibulum nibh.',
-    featured_image: './assets/img/projects-img1.png',
-    technologies: ['HTML/CSS', 'Ruby on rails', 'Javascript'],
-    live_version: 'https://jfoyarzo.github.io/Project1',
-    source: 'https://github.com/jfoyarzo/Project1',
+    title: 'Capstone Project for first module at Microverse',
+    description: 'The first Capstone Project of the Microverse curriculum. The site consists of a homepage and an about page. The event is a fictional web development summit. The layout of the elements has been made using a mixture of SCSS and Bootstrap 5 for responsiveness. Animations and transitions made with CSS. JavaScript used for user interactions and dynamically generated content. Built With HTML5, SCSS, Bootstrap 5, and JavaScript',
+    featured_image: './assets/img/capstoneProject_1.png',
+    technologies: ['HTML/SCSS', 'Bootstrap 5', 'Javascript'],
+    live_version: 'https://jfoyarzo.github.io/capstone1-WebdevSummit/index.html',
+    source: 'https://github.com/jfoyarzo/capstone1-WebdevSummit',
   },
   {
     title: 'Project 2',
